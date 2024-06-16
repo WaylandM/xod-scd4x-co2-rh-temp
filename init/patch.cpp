@@ -12,7 +12,7 @@ node {
         auto wire = getValue<input_I2C>(ctx);
 
         // Initialize SCD4X device with user specified I2C interface
-        sensor->begin(wire);
+        sensor->begin(*wire);
 
         auto sensorError = sensor->stopPeriodicMeasurement();
         if (sensorError) {

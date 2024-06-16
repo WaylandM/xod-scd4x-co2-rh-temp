@@ -10,16 +10,13 @@ node {
 
         auto sensor = getValue<input_DEV>(ctx);
 
-        bool isDataReady = false;
-
-        auto sensorError = sensor->getDataReadyFlag(isDataReady);
+        auto sensorError = sensor->wakeUp();
         if (sensorError) {
             raiseError(ctx);
             return;
         }
 
         emitValue<output_OK>(ctx, 1);
-        emitValue<output_Ready>(ctx, isDataReady);
 
     }
 }

@@ -1,0 +1,347 @@
+{
+  "description": "Combines lower level nodes to create a ready to use sensor.",
+  "links": [
+    {
+      "id": "HyZxwHuB2HA",
+      "input": {
+        "nodeId": "rJlPS_rhHC",
+        "pinKey": "B1bDa6a4C"
+      },
+      "output": {
+        "nodeId": "S1PH_S3HA",
+        "pinKey": "Hkce6paVA"
+      }
+    },
+    {
+      "id": "SyvxPHdB2BA",
+      "input": {
+        "nodeId": "ry_DrOr2SC",
+        "pinKey": "B1P1nFwaM"
+      },
+      "output": {
+        "nodeId": "Bk-DH_BhSA",
+        "pinKey": "B1QGF43S0"
+      }
+    },
+    {
+      "id": "rk9xvS_H2S0",
+      "input": {
+        "nodeId": "ry_DrOr2SC",
+        "pinKey": "SJ-1mZPTz"
+      },
+      "output": {
+        "nodeId": "Bk-DH_BhSA",
+        "pinKey": "BygYZF4nSC"
+      }
+    },
+    {
+      "id": "S1olPS_ShrA",
+      "input": {
+        "nodeId": "r1MPS_BhB0",
+        "pinKey": "SybK9iN2rR"
+      },
+      "output": {
+        "nodeId": "ry_DrOr2SC",
+        "pinKey": "OkPg7GDaW"
+      }
+    },
+    {
+      "id": "ryCePHOrhS0",
+      "input": {
+        "nodeId": "B1CvBOr3rA",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "S1PH_S3HA",
+        "pinKey": "Hkce6paVA"
+      }
+    },
+    {
+      "id": "r1JbvBOr2rA",
+      "input": {
+        "nodeId": "r1MPS_BhB0",
+        "pinKey": "HJzt9oNhr0"
+      },
+      "output": {
+        "nodeId": "SyxlPrOShBA",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkxbPS_rnBA",
+      "input": {
+        "nodeId": "Bk-DH_BhSA",
+        "pinKey": "r1ftZKNhBA"
+      },
+      "output": {
+        "nodeId": "HJkxvruS2B0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ry-WvrOBhB0",
+      "input": {
+        "nodeId": "SyTwHurhS0",
+        "pinKey": "rJZCnDVhSR"
+      },
+      "output": {
+        "nodeId": "rJlPS_rhHC",
+        "pinKey": "SJ8up66EA"
+      }
+    },
+    {
+      "id": "HkMZPSuBnB0",
+      "input": {
+        "nodeId": "SyTwHurhS0",
+        "pinKey": "r1fChvV2BC"
+      },
+      "output": {
+        "nodeId": "S1PH_S3HA",
+        "pinKey": "Hkce6paVA"
+      }
+    },
+    {
+      "id": "Hy7TOB3H0",
+      "input": {
+        "nodeId": "rkNK_r2SR",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1MPS_BhB0",
+        "pinKey": "ByWO-B3BR"
+      }
+    },
+    {
+      "id": "By4puHnH0",
+      "input": {
+        "nodeId": "Hyz9dS3BC",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1MPS_BhB0",
+        "pinKey": "By4_ZBnH0"
+      }
+    },
+    {
+      "id": "ByBp_r3HA",
+      "input": {
+        "nodeId": "HJCM5_H3HC",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1MPS_BhB0",
+        "pinKey": "Hk3V_bShrA"
+      }
+    },
+    {
+      "id": "rJ01tS2rC",
+      "input": {
+        "nodeId": "Byo6_H2SC",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1MPS_BhB0",
+        "pinKey": "ryeY5iE2BA"
+      }
+    },
+    {
+      "id": "SyZfYHhr0",
+      "input": {
+        "nodeId": "rJlPS_rhHC",
+        "pinKey": "rJ-KVS2B0"
+      },
+      "output": {
+        "nodeId": "BJ5eKB2BA",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkp_4FrhB0",
+      "input": {
+        "nodeId": "rJlPS_rhHC",
+        "pinKey": "r1EUTT6NR"
+      },
+      "output": {
+        "nodeId": "B1vGFBnS0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HJUUFShBR",
+      "input": {
+        "nodeId": "Bk-DH_BhSA",
+        "pinKey": "B1-KbYEnSA"
+      },
+      "output": {
+        "nodeId": "By8rtS3S0",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "S1PH_S3HA",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/scd4x-device"
+    },
+    {
+      "id": "rJlPS_rhHC",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "Bk-DH_BhSA",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "@/is-data-ready"
+    },
+    {
+      "id": "r1MPS_BhB0",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/read-measurement"
+    },
+    {
+      "id": "ry_DrOr2SC",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/core/gate"
+    },
+    {
+      "id": "SyTwHurhS0",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/start-measurement"
+    },
+    {
+      "id": "B1CvBOr3rA",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "HJkxvruS2B0",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SyxlPrOShBA",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "description": "CO₂ concentration in ppm.",
+      "id": "rkNK_r2SR",
+      "label": "CO2",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Temperature in °C",
+      "id": "Hyz9dS3BC",
+      "label": "Temp",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Relative humidity (%).",
+      "id": "HJCM5_H3HC",
+      "label": "RH",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on successfully reading measurement data.",
+      "id": "Byo6_H2SC",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "I²C bus",
+      "id": "BJ5eKB2BA",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -1
+      },
+      "type": "xod/i2c/input-i2c"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Initialize SCD4X device.",
+      "id": "B1vGFBnS0",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Update",
+      "id": "By8rtS3S0",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

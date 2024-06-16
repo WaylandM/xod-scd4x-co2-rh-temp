@@ -11,11 +11,15 @@
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Initialize.",
       "id": "r1EUTT6NR",
       "label": "INIT",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
@@ -41,6 +45,17 @@
         "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "I²C bus",
+      "id": "rJ-KVS2B0",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/i2c/input-i2c"
     }
   ]
 }

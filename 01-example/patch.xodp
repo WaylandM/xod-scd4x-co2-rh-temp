@@ -1,0 +1,139 @@
+{
+  "description": "Patch to test simple-scd4x-sensor node. Run in debugger.",
+  "links": [
+    {
+      "id": "By3nKHhrA",
+      "input": {
+        "nodeId": "B172tShSA",
+        "pinKey": "By8rtS3S0"
+      },
+      "output": {
+        "nodeId": "HkOhtrhBA",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "HJu0tr2HR",
+      "input": {
+        "nodeId": "rJxRtBhSA",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "B172tShSA",
+        "pinKey": "rkNK_r2SR"
+      }
+    },
+    {
+      "id": "B1tAKB3S0",
+      "input": {
+        "nodeId": "rJVRYB3H0",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "B172tShSA",
+        "pinKey": "Hyz9dS3BC"
+      }
+    },
+    {
+      "id": "Hk3F0Yr3BC",
+      "input": {
+        "nodeId": "rkhERtrnH0",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "B172tShSA",
+        "pinKey": "HJCM5_H3HC"
+      }
+    },
+    {
+      "id": "H1s1cr2BA",
+      "input": {
+        "nodeId": "HyvyqrhB0",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "B172tShSA",
+        "pinKey": "Byo6_H2SC"
+      }
+    },
+    {
+      "id": "rkxeqShSA",
+      "input": {
+        "nodeId": "SkS0FBhHR",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HyvyqrhB0",
+        "pinKey": "r1yhZRd8W"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B172tShSA",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "@/simple-scd4x-sensor"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "1"
+      },
+      "id": "HkOhtrhBA",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "rJxRtBhSA",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJVRYB3H0",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 4
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rkhERtrnH0",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 4
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SkS0FBhHR",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 5
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HyvyqrhB0",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "type": "xod/core/count"
+    }
+  ]
+}

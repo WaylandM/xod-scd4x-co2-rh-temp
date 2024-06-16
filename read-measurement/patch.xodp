@@ -1,0 +1,80 @@
+{
+  "description": "Read sensor output. The measurement data can only be read out once per signal update interval as the buffer is emptied upon read-out. This command is only available in measurement mode.",
+  "nodes": [
+    {
+      "id": "Byt9s4hrC",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on successfully reading measurement data.",
+      "id": "ryeY5iE2BA",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "SybK9iN2rR",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "An SCD4X device.",
+      "id": "HJzt9oNhr0",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-scd4x-device"
+    },
+    {
+      "description": "CO₂ concentration in ppm.",
+      "id": "ByWO-B3BR",
+      "label": "CO2",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Temperature in °C",
+      "id": "By4_ZBnH0",
+      "label": "Temp",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Relative humidity (%).",
+      "id": "Hk3V_bShrA",
+      "label": "RH",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

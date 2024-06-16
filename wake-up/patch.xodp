@@ -1,0 +1,47 @@
+{
+  "description": "Wake up sensor from sleep mode to idle mode. Only available in sleep mode.",
+  "nodes": [
+    {
+      "id": "SJsUyH2BR",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Pulse on successfully waking from sleep mode.",
+      "id": "HJgiLJB3SC",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "ByWjLyHnSA",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "An SCD4X device.",
+      "id": "SyGo8JBhS0",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-scd4x-device"
+    }
+  ]
+}
