@@ -1,2 +1,25 @@
 {
+  "description": "Create an SCD4X device.",
+  "nodes": [
+    {
+      "id": "B1iR2a64A",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An SCD4X device.",
+      "id": "Hkce6paVA",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
 }

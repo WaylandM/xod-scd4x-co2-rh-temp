@@ -1,2 +1,46 @@
 {
+  "description": "Initialize SCD4X device. The SCD4X device is in idle mode on initialization.",
+  "nodes": [
+    {
+      "id": "BygIapT4A",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "r1EUTT6NR",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "An SCD4X device.",
+      "id": "B1bDa6a4C",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-scd4x-device"
+    },
+    {
+      "description": "Pulse on successful initialization. ",
+      "id": "SJ8up66EA",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

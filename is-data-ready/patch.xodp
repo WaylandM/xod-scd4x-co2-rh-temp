@@ -1,47 +1,58 @@
 {
-  "description": "Start periodic measurement, signal update interval is 5 seconds. This command is only available in idle mode.",
+  "description": "Check whether new measurement data is available for read-out.",
   "nodes": [
     {
-      "id": "BkA3vEnrR",
+      "id": "SyFbK4hHC",
       "position": {
         "units": "slots",
-        "x": 0,
+        "x": 1,
         "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
     {
-      "description": "Pulse on successfully entering measurement mode.",
-      "id": "SJgChwE2BA",
+      "description": "Pulse on successful check of data availability.",
+      "id": "BygYZF4nSC",
       "label": "OK",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
     {
       "description": "Update.",
-      "id": "rJZCnDVhSR",
+      "id": "B1-KbYEnSA",
       "label": "UPD",
       "position": {
         "units": "slots",
-        "x": 1,
+        "x": 2,
         "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
     {
       "description": "An SCD4X device.",
-      "id": "r1fChvV2BC",
+      "id": "r1ftZKNhBA",
       "label": "DEV",
       "position": {
         "units": "slots",
-        "x": 0,
+        "x": 1,
         "y": 0
       },
       "type": "@/input-scd4x-device"
+    },
+    {
+      "description": "True if new data available, false otherwise.",
+      "id": "B1QGF43S0",
+      "label": "Ready",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-boolean"
     }
   ]
 }
