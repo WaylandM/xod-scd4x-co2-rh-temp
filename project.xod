@@ -2,5 +2,5 @@
   "description": "Sensirion SCD4x CO2, relative humidity and temperature sensor. Wraps https://github.com/Sensirion/arduino-i2c-scd4x",
   "license": "BSD 3-Clause \"New\" or \"Revised\" License",
   "name": "scd4x-co2-rh-temp",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

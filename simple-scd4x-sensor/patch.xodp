@@ -167,13 +167,57 @@
       }
     },
     {
-      "id": "HJUUFShBR",
+      "id": "S1ag0_6rR",
+      "input": {
+        "nodeId": "SJFxAu6HR",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "SyTwHurhS0",
+        "pinKey": "SJgChwE2BA"
+      }
+    },
+    {
+      "id": "BJlGR_pr0",
+      "input": {
+        "nodeId": "H1fb0uprC",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "SJFxAu6HR",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "r1XnAuTrC",
+      "input": {
+        "nodeId": "S1pi0uTSC",
+        "pinKey": "SJ-1mZPTz"
+      },
+      "output": {
+        "nodeId": "By8rtS3S0",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ByShC_TBC",
       "input": {
         "nodeId": "Bk-DH_BhSA",
         "pinKey": "B1-KbYEnSA"
       },
       "output": {
-        "nodeId": "By8rtS3S0",
+        "nodeId": "S1pi0uTSC",
+        "pinKey": "OkPg7GDaW"
+      }
+    },
+    {
+      "id": "rygp0dpHC",
+      "input": {
+        "nodeId": "S1pi0uTSC",
+        "pinKey": "B1P1nFwaM"
+      },
+      "output": {
+        "nodeId": "rJ02Rdar0",
         "pinKey": "__out__"
       }
     }
@@ -183,7 +227,7 @@
       "id": "S1PH_S3HA",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 1,
         "y": 0
       },
       "type": "@/scd4x-device"
@@ -342,6 +386,44 @@
         "y": -1
       },
       "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "SJFxAu6HR",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "id": "H1fb0uprC",
+      "label": "init",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "S1pi0uTSC",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/core/gate"
+    },
+    {
+      "id": "rJ02Rdar0",
+      "label": "init",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/from-bus"
     }
   ]
 }
